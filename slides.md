@@ -42,3 +42,18 @@ layout: intro-image
 <p class="cite text-right text-sm absolute right-4 top-140 text-white">Allen Institute / Qurometrix</p>
 
 ---
+class: bg-black pa-0
+
+layout: intro-image
+
+---
+
+<SlidevVideo controls class=" h-full mx-auto">
+<source src="/media2.mp4"  />
+</SlidevVideo>
+
+---
+
+<Youtube id="1E1g4ivWtec" />
+
+---
