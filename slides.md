@@ -52,7 +52,11 @@ layout: intro-image
 
 <SlidevVideo controls class=" h-110 mx-auto">
 <source src="/milling.webm"  />
+
 </SlidevVideo>
+<!--
+TODO: Maybe videl of Waffle milling
+-->
 ---
 class: bg-black pa-0
 
@@ -63,38 +67,50 @@ layout: intro-image
 <SlidevVideo controls class=" h-full mx-auto">
 <source src="/media2.mp4"  />
 </SlidevVideo>
-
+<!--
+Maybe update with newer segmentation + tomo and move around from perfect sideview 
+-->
 ---
 class: bg-black pa-0
 
 layout: intro-image
 ---
 <Youtube id="1E1g4ivWtec" class=" h-full w-full" />
-
+<!--
+Replace with CEMOVIS animation
+-->
 ---
 
 # What does the grid look like
 
 <img src="/fig1.png" class="h-120 mx-auto"/>
-
+<!--
+Maybe Zoom-in video
+-->
 ---
 
 # Micrographs can be nice quality
 
 <img src="/fig1b.png" class="h-60 mx-auto mt-20 rounded"/>
-
+<!--
+Show micrographs
+-->
 --- 
 
 # But not always
 
 <img src="/badcistem.png" class="h-120 mx-auto mt-2 rounded"/>
-
+<!--
+Quantify somehow
+-->
 ---
 
 # Let's test quality using 2DTM!
 
 <img src="/fig2a.png" class="h-120 mx-auto mt-2 rounded"/>
-
+<!--
+FIrst 1-2 slidex explaining 2DTM
+-->
 ---
 
 # Let's test quality using 2DTM!
@@ -142,13 +158,17 @@ layout: intro-image
 <SlidevVideo controls class=" h-full mx-auto">
 <source src="/output.mp4"  />
 </SlidevVideo>
-
+<!--
+Dark background
+-->
 --- 
 
 # Where does the damage come from?
 
 <img src="/fig4a.png" class="h-60 mx-auto mt-20 rounded"/>
-
+<!--
+Animation explaining slice angle
+-->
 --- 
 
 # Where does the damage come from?
