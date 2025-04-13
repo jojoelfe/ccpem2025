@@ -75,7 +75,10 @@ class: bg-black pa-0
 
 layout: intro-image
 ---
-<Youtube id="1E1g4ivWtec" class=" h-full w-full" />
+
+<SlidevVideo v-click autoplay loop class=" h-full mx-auto">
+<source src="/cemovis_animation.mp4"  />
+</SlidevVideo>
 <!--
 Replace with CEMOVIS animation
 -->
