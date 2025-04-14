@@ -1,5 +1,13 @@
+
+
+.dark .slidev-slide-content {  
+  @apply bg-black !important;
+}
+
 .slidev-layout {
   @apply px-14 py-10 text-[1.1rem];
+
+  @apply bg-black;
 
   h1, h2, h3, h4, p, div {
     @apply select-none;

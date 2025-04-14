@@ -37,12 +37,27 @@ layout: intro-image
 
 # Synapses
 
-<SlidevVideo controls class=" h-110 mx-auto">
+<SlidevVideo v-click autoplay loop class=" h-110 mx-auto">
 <source src="/brain.mp4"  />
 </SlidevVideo>
 
 <p class="cite text-right text-sm absolute right-4 top-140 text-white">Allen Institute / Qurometrix</p>
 
+---
+class: bg-black
+---
+
+# Cryo-ET to study the architecture of the synapse
+
+<img src="/papers/032024.png" v-click rounded-xl outline-5 outline-indigo-600 w-175 outline-solid inline/>
+<img src="/papers/102024.png" v-click rounded-xl outline-5 outline-indigo-600 w-175 outline-solid inline mt--60 mx-10/>
+<img src="/papers/112024.png" v-click rounded-xl outline-5 outline-indigo-600 w-175 outline-solid inline mt--120 mx-70/>
+<img src="/papers/1120242.png"v-click  rounded-xl outline-5 outline-indigo-600 w-175 outline-solid inline mt--30 mx-30/>
+<img src="/papers/012025.png" v-click rounded-xl outline-5 outline-indigo-600 w-175 outline-solid inline mt--90 mx-8/>
+<img src="/papers/032025.png" v-click rounded-xl outline-5 outline-indigo-600 w-175 outline-solid inline mt--120 mx-55/>
+<img src="/papers/0320252.png"v-click  rounded-xl outline-5 outline-indigo-600 w-175 outline-solid inline mt--220 mx-35/>
+<img src="/papers/0320253.png"v-click  rounded-xl outline-5 outline-indigo-600 w-175 outline-solid inline mt--120 mx-60/>
+v-click 
 ---
 class: bg-black pa-0
 
@@ -50,7 +65,7 @@ layout: intro-image
 
 ---
 
-<SlidevVideo controls class=" h-110 mx-auto">
+<SlidevVideo autoplay loop class=" h-110 mx-auto mt-10">
 <source src="/milling.webm"  />
 
 </SlidevVideo>
