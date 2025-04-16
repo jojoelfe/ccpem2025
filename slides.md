@@ -37,7 +37,7 @@ layout: intro-image
 
 # Synapses
 
-<SlidevVideo v-click autoplay loop class=" h-110 mx-auto">
+<SlidevVideo autoplay loop muted class=" h-110 mx-auto">
 <source src="/brain.mp4"  />
 </SlidevVideo>
 
@@ -101,10 +101,21 @@ Replace with CEMOVIS animation
 
 # What does the grid look like
 
-<img src="/fig1.png" class="h-120 mx-auto"/>
+<img src="/0002.png" class="h-120 mx-auto"/>
 <!--
 Maybe Zoom-in video
 -->
+---
+
+# What does the grid look like
+
+<SlidevVideo autoplay mute class=" h-120 mx-auto">
+<source src="/step1.mp4"  />
+</SlidevVideo>
+<!--
+Maybe Zoom-in video
+-->
+
 ---
 
 # Micrographs can be nice quality
@@ -121,6 +132,15 @@ Show micrographs
 <!--
 Quantify somehow
 -->
+---
+
+
+
+<SlidevVideo mute autoplay loop class="absolute h-full ml--20 mt--10">
+<source src="/2dtm.mp4"  />
+</SlidevVideo>
+
+<h1 z-1 absolute> 2D Template Matching (2DTM)</h1>
 ---
 
 # Let's test quality using 2DTM!
