@@ -97,6 +97,9 @@ layout: intro-image
 <!--
 Replace with CEMOVIS animation
 -->
+
+---
+transition: none
 ---
 
 # What does the grid look like
@@ -105,12 +108,40 @@ Replace with CEMOVIS animation
 <!--
 Maybe Zoom-in video
 -->
+
+---
+transition: none
 ---
 
 # What does the grid look like
 
 <SlidevVideo autoplay mute class=" h-120 mx-auto">
 <source src="/step1.mp4"  />
+</SlidevVideo>
+<!--
+Maybe Zoom-in video
+-->
+
+---
+transition: none
+---
+
+# What does the grid look like
+
+<SlidevVideo autoplay mute class=" h-120 mx-auto">
+<source src="/step2.mp4"  />
+</SlidevVideo>
+<!--
+Maybe Zoom-in video
+-->
+
+---
+
+
+# What does the grid look like
+
+<SlidevVideo autoplay mute class=" h-120 mx-auto">
+<source src="/step3.mp4"  />
 </SlidevVideo>
 <!--
 Maybe Zoom-in video
