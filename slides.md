@@ -220,17 +220,29 @@ FIrst 1-2 slidex explaining 2DTM
 
 # Let's test quality using 2DTM!
 
-<img src="/fig2b.png" class="h-120 mx-auto mt-2 rounded"/>
+<img src="/2dtm01.png" class="h-120 mx-auto mt-2 rounded"/>
 
 ---
 
 # Let's test quality using 2DTM!
+
+<img src="/2dtm02.png" class="h-120 mx-auto mt-2 rounded"/>
+
+---
+
+# Let's test quality using 2DTM!
+
+<img src="/2dtm03.png" class="h-120 mx-auto mt-2 rounded"/>
+
+---
+
+# CEMOVIS vs FIB - Number of detections
 
 <img src="/fig2c.png" class="h-120 mx-auto mt-2 rounded"/>
 
 ---
 
-# Let's test quality using 2DTM!
+# CEMOVIS vs FIB - Signal to Noise
 
 <img src="/fig2d.png" class="h-120 mx-auto mt-2 rounded"/>
 
@@ -260,8 +272,8 @@ layout: intro-image
 
 ---
 
-<SlidevVideo controls class=" h-full mx-auto">
-<source src="/output.mp4"  />
+<SlidevVideo autoplay muted loop class=" h-full mx-auto">
+<source src="/map_render.mp4"  />
 </SlidevVideo>
 <!--
 Dark background
@@ -275,10 +287,34 @@ Dark background
 Animation explaining slice angle
 -->
 --- 
+transition: fade
+---
 
 # Where does the damage come from?
 
-<img src="/fig4b1.png" class="h-120 mx-auto mt-2 rounded"/>
+<img src="/start.png" class="h-120 mx-auto mt-2 rounded"/>
+
+--- 
+transition: fade
+---
+
+# Where does the damage come from?
+
+<img src="/lp.png" class="h-120 mx-auto mt-2 rounded"/>
+
+--- 
+transition: fade
+---
+
+# Where does the damage come from?
+
+<img src="/hist1.png" class="h-120 mx-auto mt-2 rounded"/>
+
+--- 
+
+# Where does the damage come from?
+
+<img src="/hist2.png" class="h-120 mx-auto mt-2 rounded"/>
 
 --- 
 
