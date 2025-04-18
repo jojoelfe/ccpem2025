@@ -2,7 +2,7 @@
 # You can also start simply with 'default'
 theme: ./theme
 # some information about your slides (markdown enabled)
-title: Johannes Elferich - Happy hour 03/2025
+title: Johannes Elferich - CCPEM 04/2025
 
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
@@ -22,7 +22,7 @@ colorSchema: dark
 
 <div class="absolute top-10">
   <span class="font-700 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-    Johannes Elferich 03/12/2025
+    Johannes Elferich 04/12/2025
   </span>
 </div>
 
@@ -65,33 +65,17 @@ layout: intro-image
 
 ---
 
-<SlidevVideo autoplay loop class=" h-110 mx-auto mt-10">
-<source src="/milling.webm"  />
-
-</SlidevVideo>
-<!--
-TODO: Maybe videl of Waffle milling
--->
----
-class: bg-black pa-0
-
-layout: intro-image
-
----
-
-<SlidevVideo controls class=" h-full mx-auto">
-<source src="/media2.mp4"  />
+<SlidevVideo autoplay class=" h-full mx-auto">
+<source src="/tomo_anim.mp4"  />
 </SlidevVideo>
 <!--
 Maybe update with newer segmentation + tomo and move around from perfect sideview 
 -->
 ---
-class: bg-black pa-0
-
-layout: intro-image
 ---
 
-<SlidevVideo v-click autoplay loop class=" h-full mx-auto">
+# Is there another way?
+<SlidevVideo autoplay loop class=" h-full mx-auto">
 <source src="/cemovis_animation.mp4"  />
 </SlidevVideo>
 <!--
