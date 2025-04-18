@@ -362,7 +362,10 @@ transition: fade
 
 # Where does the damage come from?
 
-<img src="/fig4d.png" class="h-120 mx-auto mt-2 rounded"/>
+FIB
+<img src="/fibdamage.png" class="h-50 mx-auto mt-2 rounded"/>
+CEMOVIS
+<img src="/cemovisdamage.png" class="h-50 mx-auto mt-2 rounded"/>
 
 ---
 
