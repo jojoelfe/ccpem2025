@@ -68,6 +68,18 @@ layout: intro-image
 <SlidevVideo autoplay class=" h-full mx-auto">
 <source src="/tomo_anim.mp4"  />
 </SlidevVideo>
+
+<div class="absolute right-12 text-center top-20">
+  <img src="/eric.jpeg" class="rounded-full drop-shadow-lg w-16 h-16 mx-auto" />
+  <p class="!mt-1 text-m text-black">Eric Gouaux</p>
+  <img src="/aya.jpg" class="rounded-full drop-shadow-lg w-16 h-16 mx-auto" />
+  <p class="!mt-1 text-m text-black">Aya Matsui</p>
+  <img src="/cathy.jpg" class="rounded-full drop-shadow-lg w-16 h-16 mx-auto" />
+  <p class="!mt-1 text-m text-black">Cathy Spangler</p>
+</div>
+
+<p class="cite text-right text-sm "> Cryo-electron tomographic investigation of native hippocampal glutamatergic synapses. Aya Matsui, Cathy J. Spangler, Johannes Elferich, Momoko Shiozaki, Nikki Jean, Xiaowei Zhao, Maozhen Qin, Haining Zhong, Zhiheng Yu, Eric Gouaux  eLife 2024.</p>
+
 <!--
 Maybe update with newer segmentation + tomo and move around from perfect sideview 
 -->
@@ -285,3 +297,7 @@ Animation explaining slice angle
 - We should pursue this, because the advantages in terms of data quantity and continuity are exciting
   - Let's use 2DTM to optimize parameters of sectioning
   - Let's use Deco-LACE to image adjacent sections and stitch them together
+
+--- 
+
+# Acknowledgment
