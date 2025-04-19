@@ -22,7 +22,7 @@ colorSchema: dark
 
 <div class="absolute top-10">
   <span class="font-700 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-    Johannes Elferich 04/12/2025
+    Johannes Elferich 04/24/2025
   </span>
 </div>
 
@@ -379,4 +379,4 @@ CEMOVIS
 
 --- 
 
-# Acknowledgment
+# Thank you!
