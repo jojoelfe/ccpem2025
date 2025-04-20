@@ -210,18 +210,40 @@ Quantify somehow
 <h1 z-1 absolute> 2D Template Matching (2DTM)</h1>
 ---
 
-# Let's test quality using 2DTM!
+# 2DTM - Damage quantification & Baited reconstruction
+
+<div grid grid-cols-2 mt-14 items-center gap-4>
+<div>
+<img src="/fib_damage.png" rounded mx-auto>
+    B.A. Lucas, & N. Grigorieff, Quantification of gallium cryo-FIB milling damage in biological lamellae, Proc. Natl. Acad. Sci. U.S.A. 120 (23) e2301852120, https://doi.org/10.1073/pnas.2301852120 (2023). 
+</div>
+<div>
+<img src="/baited.png" rounded mx-auto>
+     Bronwyn A Lucas, Benjamin A Himes, Nikolaus Grigorieff 
+(2023) Baited reconstruction with 2D template matching for high-resolution structure determination in vitro and in vivo without template bias
+eLife 12:RP90486.
+</div>
+</div>
+
+---
+
+# Our yeast 60S template
 
 <img src="/fig2a.png" class="h-120 mx-auto mt-2 rounded"/>
 <!--
 FIrst 1-2 slidex explaining 2DTM
 -->
+
+---
+transition: fade
 ---
 
 # Let's test quality using 2DTM!
 
 <img src="/2dtm01.png" class="h-120 mx-auto mt-2 rounded"/>
 
+---
+transition: fade
 ---
 
 # Let's test quality using 2DTM!
@@ -257,8 +279,9 @@ FIrst 1-2 slidex explaining 2DTM
 
 # Whats the resolution?
 
-<img src="/fig3b.png" class="h-120 mx-auto mt-2 rounded"/>
+<img src="/fig3b.png" class="h-110 mx-auto mt-2 rounded"/>
 
+<a href="https://github.com/teamtomo/torch-fourier-shell-correlation"><mdi-github />teamtomo/torch-fourier-shell-correlation</a>
 ---
 
 # What does the map looks like - L34A
@@ -371,12 +394,26 @@ CEMOVIS
 
 # Summary
 
-- Does CEMOVIS produce higher-quality cell slices than FIB-milling: NO
-- Is the quality high enough to get residue-level resolution: YES
-- We should pursue this, because the advantages in terms of data quantity and continuity are exciting
-  - Let's use 2DTM to optimize parameters of sectioning
-  - Let's use Deco-LACE to image adjacent sections and stitch them together
+<v-clicks>
 
+- Does CEMOVIS produce higher-quality cell slices than FIB-milling: **NO** (Not yet?)
+- Is the quality high enough for *in-situ* structural biology: **YES**
+- We should pursue this, because the advantages in terms of data quantity and continuity are exciting
+- Let's use 2DTM to optimize CEMOVIS parameters
+- Let's combine CEMOVIS and montaged acquisition to do **Cryo-Volume EM**
+
+</v-clicks>
+
+<style>
+  li {
+font-size: 1.4em;
+
+  }
+  li > strong {
+    font-size: 1.1em;
+    font-weight: 1200;
+  }
+</style>
 --- 
 
 # Thank you!
