@@ -208,6 +208,15 @@ Quantify somehow
 </SlidevVideo>
 
 <h1 z-1 absolute> 2D Template Matching (2DTM)</h1>
+
+<p z-1 absolute bottom-15>
+[Cryo-EM data collected by Johannes Elferich using Titan Krios microscope on Gatan K3 camera]
+</p>
+<p z-1 absolute bottom-0>
+[Background image of M31 collected by Nikolaus Grigorieff using Astro-Tech AT111EDT 111mm f/7 ED
+triplet apochromatic refractor on Canon Digital Rebel XSi camera]
+</p>
+
 ---
 
 # 2DTM - Damage quantification & Baited reconstruction
@@ -301,6 +310,7 @@ layout: intro-image
 <!--
 Dark background
 -->
+
 --- 
 
 # Where does the damage come from?
@@ -416,4 +426,43 @@ font-size: 1.4em;
 </style>
 --- 
 
+
 # Thank you!
+
+<div grid grid-cols-2>
+<div>
+<p class="pi">Niko Grigorieff</p>
+<p>Mike Rigney</p>
+<p>Bronwyn Lucas</p>
+<p>Ben Himes</p>
+<p>Lingli Kong</p>
+<p>Steve Diggs</p>
+<p>Kexin Zhang</p>
+<p>Ximena Zottig</p>
+<p>Dongjie Zhu</p>
+<p>Selene Flemming</p>
+<p>Min Zhang</p>
+<p>David Aizenberg</p>
+<img src="/lab.png" class="rounded-md shadow-lg h-48" />
+
+</div>
+
+<div>
+<p class="pi">Eric Gouaux</p>
+<p>Aya Matsui</p>
+<p>Cathy Spangler</p>
+
+</div>
+</div>
+
+<style scoped>
+  .slidev-layout p {
+    @apply leading-5 my-0 !important;
+  }
+  p.sig {
+    @apply font-bold
+  }
+  p.pi{
+    @apply font-bold underline mt-1rem
+  }
+</style>
