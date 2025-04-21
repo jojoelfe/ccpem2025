@@ -188,6 +188,13 @@ Maybe Zoom-in video
 # Powerspectra indicate high-quality data
 
 <img src="/fig1b.png" class="h-60 mx-auto mt-20 rounded"/>
+
+Defocus = 760 nm
+
+Sample Thickness = 175 nm
+
+Fit resolution = 3.1 Å
+
 <!--
 Show micrographs
 -->
@@ -378,12 +385,21 @@ transition: fade
 ---
 
 
-# Where does the damage come from?
+# A simple model of damage in cryosectioning
 
+<div class="grid grid-cols-[4fr_1fr] gap-4">
+<div text-center>
 FIB
 <img src="/fibdamage.png" class="h-50 mx-auto mt-2 rounded"/>
+<div v-click>
 CEMOVIS
 <img src="/cemovisdamage.png" class="h-50 mx-auto mt-2 rounded"/>
+</div>
+</div>
+<div>
+<img src="/damagelegend.png" h-90>
+</div>
+</div>
 
 ---
 
@@ -436,8 +452,18 @@ font-size: 1.4em;
 <p class="pi">Eric Gouaux</p>
 <p>Aya Matsui</p>
 <p>Cathy Spangler</p>
+<p class="pi">Wanda Kukulski</p>
+
+<div>
+<p class="pi">Benoit Zuber</p>
+<p>Marek</p>
+<img src="/umass.png" class="rounded-md shadow-lg w-64 mt-20" />
+<img src="/hhmi.webp" class="rounded-md shadow-lg w-64" />
 
 </div>
+</div>
+
+
 </div>
 
 <style scoped>
