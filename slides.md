@@ -344,54 +344,39 @@ transition: fade
 <img src="/hist1.png" class="h-120 mx-auto mt-2 rounded"/>
 
 --- 
+transition: fade
+---
 
 # Where does the damage come from?
 
 <img src="/hist2.png" class="h-120 mx-auto mt-2 rounded"/>
 
---- 
-
-# Where does the damage come from?
-
-<img src="/fig4b2.png" class="h-120 mx-auto mt-2 rounded"/>
-
---- 
-
-# Where does the damage come from?
-
-<img src="/fig4b3.png" class="h-120 mx-auto mt-2 rounded"/>
-
---- 
-
-# Ripley's L function
-
-<div style="display: flex; justify-content: center; align-items: center;">
-  <div style="text-align: center; margin-right: 20px;">
-  <p>CEMOVIS</p>
-    <img src="/ripley_cemovis.png" class="h-110 mt-2 rounded"/>
-    
-  </div>
-  <div style="text-align: center;">
-  <p>FIB</p>
-    <img src="/ripley_fib.png" class="h-110 mt-2 rounded"/>
-    
-  </div>
-</div>
-
-
+---
+transition: fade
 ---
 
 # Where does the damage come from?
 
-<img src="/fig4b4.png" class="h-120 mx-auto mt-2 rounded"/>
+<img src="/angle1.png" class="h-120 mx-auto mt-2 rounded"/>
+
+--- 
+transition: fade
+---
+
+# Where does the damage come from?
+
+<img src="/angle2.png" class="h-120 mx-auto mt-2 rounded"/>
 
 --- 
 
 # Where does the damage come from?
 
-<img src="/fig4c.png" class="h-120 mx-auto mt-2 rounded"/>
+<img src="/angle2.png" class="h-120 mx-auto mt-2 rounded"/>
 
---- 
+<img src="/fig4cn.png" absolute right-20 top-40 h-80 />
+
+---
+
 
 # Where does the damage come from?
 
