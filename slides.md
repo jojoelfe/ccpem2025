@@ -17,6 +17,9 @@ canvasWidth: 1080
 layout: intro-image
 image: '/cover.png'
 colorSchema: dark
+fonts:
+  # basically the text
+  sans: Roboto
 
 ---
 
@@ -282,7 +285,39 @@ transition: fade
 
 # CEMOVIS vs FIB - Signal to Noise
 
+<div class="grid grid-cols-[2fr_1.5fr]">
 <img src="/fig2d.png" class="h-120 mx-auto mt-2 rounded"/>
+<div class="container">
+
+|                | **CEMOVIS**       | **FIB**          |
+|----------------|-------------------|:------------------:|
+| **Pixel Size** | 1.17  | 1.06 |
+| **Detector**   | Falcon 4 | K3 |
+| **Sample**     | Yeast  | Yeast+cycloheximide |
+
+</div>
+</div>
+
+<style>
+  .container {
+    margin: 1rem auto;
+    text-align: center;
+  }
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 1.2em;
+  }
+  .table th, .table td {
+    border: 3px solid #000; /* Thicker border */
+    padding: 0.5rem 1rem;
+  }
+  .table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+</style>
 
 ---
 
