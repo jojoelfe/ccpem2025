@@ -254,7 +254,7 @@ FIrst 1-2 slidex explaining 2DTM
 transition: fade
 ---
 
-# Let's test quality using 2DTM!
+# 2DTM detections of the 60S subunit in vitreous sections!
 
 <img src="/2dtm01.png" class="h-120 mx-auto mt-2 rounded"/>
 
@@ -262,13 +262,13 @@ transition: fade
 transition: fade
 ---
 
-# Let's test quality using 2DTM!
+# 2DTM detections of the 60S subunit in vitreous sections!
 
 <img src="/2dtm02.png" class="h-120 mx-auto mt-2 rounded"/>
 
 ---
 
-# Let's test quality using 2DTM!
+# 2DTM detections of the 60S subunit in vitreous sections!
 
 <img src="/2dtm03.png" class="h-120 mx-auto mt-2 rounded"/>
 
@@ -293,14 +293,14 @@ transition: fade
 
 ---
 
-# Whats the resolution?
+# What is the resolution?
 
 <img src="/fig3b.png" class="h-110 mx-auto mt-2 rounded"/>
 
 <a href="https://github.com/teamtomo/torch-fourier-shell-correlation"><mdi-github />teamtomo/torch-fourier-shell-correlation</a>
 ---
 
-# What does the map looks like - L34A
+# What does the map look like - L34A
 
 <img src="/fig3c.png" class="h-120 mx-auto mt-2 rounded"/>
 
@@ -455,8 +455,8 @@ font-size: 1.4em;
 <p class="pi">Wanda Kukulski</p>
 
 <div>
-<p class="pi">Benoit Zuber</p>
-<p>Marek</p>
+<p class="pi">Benoît Zuber</p>
+<p>Marek Kaminek</p>
 <img src="/umass.png" class="rounded-md shadow-lg w-64 mt-20" />
 <img src="/hhmi.webp" class="rounded-md shadow-lg w-64" />
 
