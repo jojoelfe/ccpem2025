@@ -65,6 +65,30 @@ v-click
 class: bg-black pa-0
 
 layout: intro-image
+transition: none
+---
+
+<img src="/tomof.png" class=" h-130 mx-auto" />
+
+
+<div class="absolute right-8 text-center top-20">
+  <img src="/eric.jpeg" class="rounded-full drop-shadow-lg w-16 h-16 mx-auto" />
+  <p class="!mt-1 text-m ">Eric Gouaux</p>
+  <img src="/aya.jpg" class="rounded-full drop-shadow-lg w-16 h-16 mx-auto" />
+  <p class="!mt-1 text-m ">Aya Matsui</p>
+  <img src="/cathy.jpg" class="rounded-full drop-shadow-lg w-16 h-16 mx-auto" />
+  <p class="!mt-1 text-m ">Cathy Spangler</p>
+</div>
+
+<p class="cite text-right text-sm "> Cryo-electron tomographic investigation of native hippocampal glutamatergic synapses. Aya Matsui, Cathy J. Spangler, Johannes Elferich, Momoko Shiozaki, Nikki Jean, Xiaowei Zhao, Maozhen Qin, Haining Zhong, Zhiheng Yu, Eric Gouaux  eLife 2024.</p>
+
+<!--
+Maybe update with newer segmentation + tomo and move around from perfect sideview 
+-->
+---
+class: bg-black pa-0
+
+layout: intro-image
 
 ---
 
@@ -86,7 +110,6 @@ layout: intro-image
 <!--
 Maybe update with newer segmentation + tomo and move around from perfect sideview 
 -->
----
 ---
 
 # Is there another way?
@@ -203,15 +226,6 @@ Show micrographs
 -->
 --- 
 
-# But not always
-
-<img src="/badcistem.png" class="h-120 mx-auto mt-2 rounded"/>
-<!--
-Quantify somehow
--->
----
-
-
 
 <SlidevVideo mute autoplay loop class="absolute h-full ml--20 mt--10">
 <source src="/2dtm.mp4"  />
@@ -294,6 +308,7 @@ transition: fade
 | **Pixel Size** | 1.17  | 1.06 |
 | **Detector**   | Falcon 4 | K3 |
 | **Sample**     | Yeast  | Yeast+cycloheximide |
+| **Vitrification** | HPF | Plunge-freezing |
 
 </div>
 </div>
@@ -512,3 +527,13 @@ font-size: 1.4em;
     @apply font-bold underline mt-1rem
   }
 </style>
+
+---
+
+# But not always
+
+<img src="/badcistem.png" class="h-120 mx-auto mt-2 rounded"/>
+<!--
+Quantify somehow
+-->
+---
